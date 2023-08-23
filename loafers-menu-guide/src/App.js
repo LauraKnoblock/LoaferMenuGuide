@@ -392,7 +392,7 @@ function App() {
   name: `Basic Mayo`,
   category: 'sauces',
   image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p536_i1_w3600.jpeg?width=1280&dpr=1.25',
-  description: ``,
+  description: `Basic Mayo is a very classic sauce. It provides fat, acid, and salt.`,
   ingredients:`Egg Yolk
   White Distilled Vinegar
   Salt
@@ -487,6 +487,110 @@ function App() {
   Baking Soda
   Baking Powder
   Chocolate Chips`
+},
+{
+  id: 29,
+  name: `Garlic Mayo`,
+  category: 'sauces',
+  image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p539_i1_w3600.jpeg?width=1280&dpr=1.25',
+  description: `Garlic Mayo is an adaptation on Basic Mayo that provides a rich garlic flavor.`,
+  ingredients:`Egg Yolk
+  White Distilled Vinegar
+  Salt
+  Garlic
+  Soy Oil`
+},
+{
+  id: 30,
+  name: `Buttermilk Dressing`,
+  category: 'sauces',
+  image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p491_i2_w3600.jpeg?width=1280&dpr=1.25',
+  description: `Our house buttermilk dressing! Perfect for your salad, pizza rossa, carrots, and pretty much everything else.`,
+  ingredients:`Egg Yolk
+  Buttermilk
+  Shallot
+  Sour Cream
+  Garlic
+  Lemon Juice
+  Salt
+  Soy Oil`
+},
+{
+  id: 31,
+  name: `Grainy Mustard`,
+  category: 'sauces',
+  image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p543_i1_w3600.jpeg?width=1280&dpr=1.25',
+  description: `Our house mustard featured with the pretzel and on our ham sandwich. Made with Busch Bavarian.`,
+  isVegan: true,
+  ingredients:`Brown Mustard Seed
+  Yellow Mustard Seed
+  Champagne Vinegar
+  White Distilled Vinegar
+  Salt`
+},
+{
+  id: 32,
+  name: `100k Island Dressing`,
+  category: 'sauces',
+  image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p540_i1_w3600.jpeg?width=1280&dpr=1.25',
+  description: `100k Island is a slightly brighter version of 1,000 Island, with Hard Boiled Eggs diced in and a little kick with sriracha added.`,
+  ingredients:`Egg Yolk
+  Shallot
+  Garlic
+  Bread & Butter Pickles
+  Ketchup
+  Sriracha
+  Salt
+  Black Pepper
+  Soy Oil
+  Hard Boiled Eggs`
+},
+{
+  id: 33,
+  name: `Famous Sauce`,
+  category: 'sauces',
+  image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p538_i1_w3600.jpeg?width=1280&dpr=1.25',
+  description: `Inspired by the renowned Durkee Famous Sauce -it's a tangy cooked egg yolk sauce reminiscent of Deviled Egg filling. Goes great with kettle chips.`,
+  ingredients:`Cooked Egg Yolk
+  Basic Mayo
+  White Distilled Vinegar
+  Water
+  Yellow Mustard
+  Yellow Mustard Powder
+  Sugar
+  Salt
+  Paprika`
+},
+{
+  id: 34,
+  name: `Roasted Tomato Mayo`,
+  category: 'sauces',
+  image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p541_i1_w3600.jpeg?width=1280&dpr=1.25',
+  description: `With tomatoes being seasonal, the sauce is meant to emulate the wet tomato texture and flavor on the sandwich while still being a rich and sharp mayo. Provides acid, salt, fat and some heat with the addition of the calabrian chilies in the sauce.`,
+  ingredients:`Roasted Valoroso whole plum tomatoes (broken open, squeezed of most of their juice, and roasted at a high temperature to caramelize and bring out a richer flavor)
+  Egg Yolk
+  Garlic, fresh
+  Calabrian Chiles
+  Lemon Juice
+  Valoroso tomato juice (reserved liquid from the can of whole plum tomatoes, separated from the whole tomatoes)
+  Salt,
+  Soy Oil`
+},
+{
+  id: 35,
+  name: `Dill Dip`,
+  category: 'sauces',
+  image: '',
+  description: ``,
+  ingredients:`Soy Oil
+  Egg Yolk
+  Buttermilk
+  Sour Cream
+  Lemon Juice
+  Salt
+  Dried Minced Onion
+  Dried Minced Garlic
+  Fresh Dill`
 },
    ];
 
