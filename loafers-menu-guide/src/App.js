@@ -592,6 +592,110 @@ function App() {
   Dried Minced Garlic
   Fresh Dill`
 },
+{
+  id: 36,
+  name: `Potato Salad`,
+  category: 'snacksSides',
+  image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p187_i3_w3600.jpeg?width=1280&dpr=1.25',
+  description: ``,
+  ingredients:`Cooked Red Skin New Potatoes(Potatoes, Water, Salt)
+  Basic Mayo
+  Yellow Mustard
+  Dill
+  Bread & Butter Pickles`
+},
+{
+  id: 37,
+  name: `Little Gem Salad`,
+  category: 'lunchSoupSalad',
+  image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p372_i3_w3024.jpeg?width=1280&dpr=1.25',
+  description: ``,
+  ingredients:`Little Gem Lettuce
+  Romaine Lettuce
+  Salt & Pepper
+  Breadcrumbs
+  Fine Herbs
+  Pickled Shallots
+
+  ADDITIONAL TOPPINGS
+  Sub Buttermilk for Olive Oil and Lemon
+  Picked Chicken
+  Bacon
+  Smoked Beets`
+},
+{
+  id: 38,
+  name: `Chicken & Rice Soup`,
+  category: 'lunchSoupSalad',
+  image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p175_i2_w3600.jpeg?width=1280&dpr=1.25',
+  description: `Classic, brothy goodness`,
+  ingredients:`Chicken Broth
+  -- Concentrated chicken stock
+  -- Salt
+  Carrots
+  Celery
+  Chicken
+  Lemon Juice
+  Schmaltz`
+},
+{
+  id: 39,
+  name: `Strawberry Jelly`,
+  category: 'sauces',
+  image: '',
+  isVegan: true,
+  description: ``,
+  ingredients:`Strawberry
+  Sugar
+  Lemon
+  Pectin`
+},
+{
+  id: 39,
+  name: `Nut Butter`,
+  category: 'sauces',
+  image: '',
+  isVegan: true,
+  description: ``,
+  ingredients:`Roasted Peanuts
+  Salt`
+},
+{
+  id: 40,
+  name: `Dill Pickles`,
+  category: 'snacksSides',
+  image: '',
+  isVegan: true,
+  description: ``,
+  ingredients:`Cucumbers
+  White Distilled Vinegar
+  Water
+  Salt
+  Garlic
+  Dill`
+},
+{
+  id: 41,
+  name: `Pickle Spears`,
+  category: 'snacksSides',
+  image: '',
+  isVegan: true,
+  description: ``,
+  ingredients:`Cucumbers, cut into quarters lengthwise
+  White Distilled Vinegar
+  Water
+  Salt
+  Sugar
+  Garlic, fresh
+  Dill, fresh
+  Garlic, dried
+  Dill seed
+  Yellow Mustard Seed
+  Black Peppercorns
+  Crushed Red Pepper Flakes
+  Dried Onion
+  Calcium Chloride`
+},
    ];
 
 export default App;
