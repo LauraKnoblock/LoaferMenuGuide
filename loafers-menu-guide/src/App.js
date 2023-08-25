@@ -2,11 +2,31 @@ import React, { useState, useEffect } from 'react';
 import FlashcardList from './FlashcardList';
 import './app.css';
 import axios from 'axios';
-
+import SearchBar from './SearchBar';
 function App() {
 
   const [flashcards, setFlashcards] = useState(SAMPLE_FLASHCARDS);
   const [selectedCategory, setSelectedCategory] = useState('none');
+  const [searchQuery, setSearchQuery] = useState('');
+  const handleSearch = (query) => {
+    setSearchQuery(query.toLowerCase());
+    if (selectedCategory === 'none') {
+      const filteredCards = SAMPLE_FLASHCARDS.filter(
+        card =>
+          card.name.toLowerCase().includes(query) ||
+          card.ingredients.toLowerCase().includes(query) ||
+          (card.isVegan && query === 'vegan')
+      );
+      setFlashcards(filteredCards);
+    } else {
+      const filteredCards = categoryFlashcards[selectedCategory].filter(
+        card =>
+          card.name.toLowerCase().includes(query) ||
+          card.description.toLowerCase().includes(query)
+      );
+      setFlashcards(filteredCards);
+    }
+  };
   const categoryFlashcards = {
     bread: SAMPLE_FLASHCARDS.filter(card => card.category === 'bread'),
     sandwiches: SAMPLE_FLASHCARDS.filter(card => card.category === 'sandwiches'),
@@ -16,6 +36,15 @@ function App() {
     pizza: SAMPLE_FLASHCARDS.filter(card => card.category === 'pizza'),
     dinnerStarters: SAMPLE_FLASHCARDS.filter(card => card.category === 'dinnerStarters'),
   };
+  const filteredFlashcards = selectedCategory === 'none'
+    ? flashcards.filter(card =>
+        card.name.toLowerCase().includes(searchQuery) ||
+        card.description.toLowerCase().includes(searchQuery)
+      )
+    : categoryFlashcards[selectedCategory].filter(card =>
+        card.name.toLowerCase().includes(searchQuery) ||
+        card.description.toLowerCase().includes(searchQuery)
+      );
 
   const handleCategoryChange = (event) => {
     const newCategory = event.target.value;
@@ -25,23 +54,6 @@ function App() {
       setFlashcards(categoryFlashcards[newCategory]);
     }
   };
-
-  // useEffect(() => {
-  //   axios
-  //   .get('https://opentdb.com/api.php?amount=10')
-  //   .then(res => {
-  //     setFlashcards(res.data.results.map((questionItem, index) => {
-  //       const answer = decodeString(questionItem.correct_answer);
-  //       const options = [...questionItem.incorrect_answers.map(a => decodeString(a)), answer]
-  //       return {
-  //         id: `${index}-${Date.now()}`,
-  //         question: decodeString(questionItem.question),
-  //         answer: answer,
-  //         options: options.sort(() => Math.random() - .5) 
-  //       }
-  //     })) 
-  //   })
-  // }, [])
 
 
   function decodeString(str) {
@@ -67,6 +79,9 @@ function App() {
           <option value="pizza">Pizza</option>
           <option value = "dinnerStarters">Dinner Starters</option>
         </select>
+      </div>
+      <div className="searchBar">
+        <SearchBar onSearch={handleSearch}></SearchBar>
       </div>
     <div className="container">
    <FlashcardList flashcards ={flashcards}/>
@@ -651,7 +666,7 @@ function App() {
   Pectin`
 },
 {
-  id: 39,
+  id: 40,
   name: `Nut Butter`,
   category: 'sauces',
   image: '',
@@ -661,7 +676,7 @@ function App() {
   Salt`
 },
 {
-  id: 40,
+  id: 41,
   name: `Dill Pickles`,
   category: 'snacksSides',
   image: '',
@@ -675,7 +690,7 @@ function App() {
   Dill`
 },
 {
-  id: 41,
+  id: 42,
   name: `Pickle Spears`,
   category: 'snacksSides',
   image: '',
