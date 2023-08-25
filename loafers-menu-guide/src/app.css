@@ -29,6 +29,8 @@ body {
   .container {
     max-width: 1400px;
     margin: 2rem, 3rem;
+    
+    
   }
   .card-grid {
     display: grid;
@@ -136,4 +138,32 @@ body {
     color: green;
     font-size: 1.5rem;
     margin-left: 5px;
+  }
+
+  .searchBar {
+    padding: .5rem;
+    border-radius: 1rem;
+    background-color: rgba(6, 74, 126, 0.838);
+    border-color: ghostwhite;
+    color:ghostwhite;
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+      
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      justify-content: center;
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        justify-content: center;
+    }
+
+    .card {
+        margin: 1rem auto;
+    }
   }
