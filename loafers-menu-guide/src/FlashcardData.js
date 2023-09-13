@@ -749,7 +749,7 @@ const SAMPLE_FLASHCARDS = [
     id: 51,
     name: `Classic`,
     category: 'pizza',
-    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p134_i1_w2048.jpeg?width=1280&dpr=1.25',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p160_i1_w2048.jpeg?width=1280&dpr=1.25',
     description: ``,
     ingredients:`Pizza Sauce
     Shredded Mozzarella
@@ -757,6 +757,54 @@ const SAMPLE_FLASHCARDS = [
     Madlon Sea Salt
     Olive Oil
     Fresh Mozzarella`
+  },
+  {
+    id: 52,
+    name: `Spinach`,
+    category: 'pizza',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p134_i1_w2048.jpeg?width=1280&dpr=1.25',
+    description: ``,
+    ingredients:`Shredded Mozzarella
+    Spinach
+    Maldon Sea Salt
+    Garlic Slices
+    Garlic Oil
+    Bacon
+    Grana Padano
+    Lemon Olive Oil`
+  },
+  {
+    id: 53,
+    name: `Le Vallon`,
+    category: 'redWine',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p772_i1_w3024.jpeg?width=1280&dpr=1.25',
+    description: `Producer: Henri Milan
+    Name: Le Vallon
+    Vintage: 2022
+    Location: Provence, France
+    Varietals: Grenache, Syrah, Niellucciu
+    Fermentation: Natural
+    Aging: One Year in cement vats`,
+    ingredients:`Tasting Notes: Red Currants, blackberries, herbs
+    Body/Structure: Whole cluster fermentation for 5 days to add body and depth
+    Similar to: Something like a lush version of a Tempranillo`
+  },
+  {
+    id: 54,
+    name: `Une Ile`,
+    category: 'redWine',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p329_i5_w2048.jpeg?width=1280&dpr=1.25',
+    description: `Producer: Clos Des Grillons
+    Name: Une Ile
+    Vintage: 2021
+    Location: Cotes du Rhone
+    Varietals: Mourvedre, touch of Cinsault
+    Fermentation: One week of carbonic maceration
+    Aging: Three months in stainless`,
+    ingredients:`Aroma: Fresh Flowers, Watermelon, Pomegranate
+    Tasting Notes: More florals, warm spice, pomegranate, cranberry
+    Body/Structure: Very light
+    Notes: Looks like a rose but is technically a red. Great for Spring.`
   },
    ];
 
