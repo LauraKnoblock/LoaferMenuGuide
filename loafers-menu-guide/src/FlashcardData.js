@@ -718,6 +718,46 @@ const SAMPLE_FLASHCARDS = [
     ingredients:`Notes: This is a very non-traditional blend, the Grenahe Blanc keeps the whole thing very light.
     Similar to: if someone is looking for a lighter yet vibrant offering.`
   },
+  {
+    id: 49,
+    name: `Sausage`,
+    category: 'pizza',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p203_i1_w2048.jpeg?width=1280&dpr=1.25',
+    description: ``,
+    ingredients:`Pizza Sauce
+    Shredded Mozzarella
+    Oregano
+    Basil
+    Sausage
+    Fresh Mozzarella`
+  },
+  {
+    id: 50,
+    name: `Mushroom`,
+    category: 'pizza',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p170_i2_w2048.jpeg?width=1280&dpr=1.25',
+    description: ``,
+    ingredients:`Shredded Mozzarella
+    Oregano
+    Fox Glove
+    Duxelles
+    Roasted Mushrooms
+    Pickled Shallots
+    Olive Oil`
+  },
+  {
+    id: 51,
+    name: `Classic`,
+    category: 'pizza',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p134_i1_w2048.jpeg?width=1280&dpr=1.25',
+    description: ``,
+    ingredients:`Pizza Sauce
+    Shredded Mozzarella
+    Basil
+    Madlon Sea Salt
+    Olive Oil
+    Fresh Mozzarella`
+  },
    ];
 
 export default SAMPLE_FLASHCARDS;
