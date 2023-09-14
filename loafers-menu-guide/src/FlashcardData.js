@@ -806,6 +806,23 @@ const SAMPLE_FLASHCARDS = [
     Body/Structure: Very light
     Notes: Looks like a rose but is technically a red. Great for Spring.`
   },
+  {
+    id: 55,
+    name: `Harmonie, Cremant de Jura`,
+    category: 'sparklingWine',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p784_i2_w3024.jpeg?width=1280&dpr=1.25',
+    description: `Producer: Domaine Pierre-Richard
+    Name: Harmonie, Cremant de Jura
+    Vintage: N/A
+    Location: Jura, France
+    Varietals: Chardonnay
+    Fermentation: Primary in stainless steel, secondary in bottle
+    Aging:  between 24-36 months on lees`,
+    ingredients:`Aroma: Floral notes and fleshy white fruit
+    Tasting Notes: Slightly nutty, oxidized notes. More white flower, citrus acidity
+    Body/Structure: Very fine bubbles
+    Notes: Suggest this one for guests seeking a celebratory bottle and not an adventurous foray into Pet Nat.`
+  },
    ];
 
 export default SAMPLE_FLASHCARDS;

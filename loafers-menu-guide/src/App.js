@@ -37,6 +37,7 @@ function App() {
     pizza: SAMPLE_FLASHCARDS.filter(card => card.category === 'pizza'),
     dinnerStarters: SAMPLE_FLASHCARDS.filter(card => card.category === 'dinnerStarters'),
     redWine: SAMPLE_FLASHCARDS.filter(card => card.category === 'redWine'),
+    sparklingWine: SAMPLE_FLASHCARDS.filter(card => card.category === 'sparklingWine'),
   };
   const filteredFlashcards = selectedCategory === 'none'
     ? flashcards.filter(card =>
@@ -81,6 +82,7 @@ function App() {
           <option value="pizza">Pizza</option>
           <option value = "dinnerStarters">Dinner Starters</option>
           <option value = "redWine">Red Wine</option>
+          <option value = "sparklingWine">Sparkling Wine</option>
         </select>
       </div>
       <div className="searchBar">
