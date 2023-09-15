@@ -671,7 +671,7 @@ const SAMPLE_FLASHCARDS = [
   },
   {
     id: 46,
-    name: `St. Romedius Teroldego, California`,
+    name: `St. Romedius`,
     category: 'redWine',
     image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p763_i1_w3024.jpeg?width=1280&dpr=1.25',
     description: `Producer: St. Romedius
@@ -688,7 +688,7 @@ const SAMPLE_FLASHCARDS = [
   },
   {
     id: 47,
-    name: `Lo-Fi Syrah- Santa Barbara, CA`,
+    name: `Lo-Fi Syrah`,
     category: 'redWine',
     image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p451_i2_w3024.jpeg?width=1280&dpr=1.25',
     description: `Producer: Lo-Fi
@@ -857,7 +857,57 @@ const SAMPLE_FLASHCARDS = [
     Tasting Notes: Morello cherries, dried red berries, leather
     Body/Structure: Tight acidity, medium body
     Similar to: Think of a more substantial Chianti Riserva`
-  }
+  },
+  {
+    id: 58,
+    name: `Grenache`,
+    category: 'redWine',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p830_i1_w3024.jpeg?width=1280&dpr=1.25',
+    description: `Producer: Riddle Wines
+    Name: Grenache
+    Vintage: 2020
+    Location: David Girard Vineyard, El Dorado, CA
+    Varietals: Grenache 
+    Fermentation: Destemmed, naturally fermented on skins for 12 days
+    Aging:  10 months on gross lees in Neutral French Oak`,
+    ingredients:`Aroma: Bing cherry, herbs
+    Tasting Notes: "Electric" fruit notes, anise, herbs
+    Body/Structure: Mouth-coating body
+    Similar to: Best to just call this what it is, a New World Grenache`
+  },
+  {
+    id: 59,
+    name: `Cab Franc`,
+    category: 'redWine',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p946_i1_w2250.jpeg?width=1280&dpr=1.25',
+    description: `Producer: Habit
+    Name: Cab Franc
+    Vintage: 2022
+    Location: Coquelicot Vineyard, Santa Ynez Valley, Santa Barbara, CA
+    Varietals: Cabernet Franc 
+    Fermentation: Native Yeast
+    Aging:  8 months on Neutral French Oak`,
+    ingredients:`Aroma: Dark Fruit
+    Tasting Notes: Dark Fruit, peppery bite
+    Body/Structure: Suprisingly high acidity, medium body`
+  },
+  {
+    id: 60,
+    name: `Gigondas Cuveé Tradition`,
+    category: 'redWine',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p987_i1_w3024.jpeg?width=1280&dpr=1.25',
+    description: `Producer: Domaine Gour de Chaulé
+    Name: Gigondas Cuveé Tradition
+    Vintage: 2021
+    Location: Gigondas, Côtes du Rhone, France
+    Varietals: Grenache, Syrah, Mourvedre
+    Fermentation: Native Yeast
+    Aging:  18 months in oak foeders`,
+    ingredients:`Aroma: Red and black fruit, leather, warm spices
+    Tasting Notes: Crushed pepper, blackberries, spices
+    Body/Structure: Medium Body, firm tannins
+    Notes: Great Example of GSM blend from Cotes du Rhone`
+  },
    ];
 
 export default SAMPLE_FLASHCARDS;
