@@ -823,6 +823,41 @@ const SAMPLE_FLASHCARDS = [
     Body/Structure: Very fine bubbles
     Notes: Suggest this one for guests seeking a celebratory bottle and not an adventurous foray into Pet Nat.`
   },
+  {
+    id: 56,
+    name: `Julius`,
+    category: 'sparklingWine',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p967_i1_w3024.jpeg?width=1280&dpr=1.25',
+    description: `Producer: Bulli
+    Name: Julius
+    Vintage: N/A
+    Location: Colli Piacentini, Piacenza, Emilia-Romagna
+    Varietals: Malvasia di Candia
+    Fermentation: Natural for 10-15 days
+    Aging:  5 day maceration on skins, after 3-4 months, musts are added to encourage secondary fermentation`,
+    ingredients:`Aroma: Stone fruit, floral
+    Tasting Notes: Ripe peach and apricot
+    Body/Structure: Lively effervescence
+    Similar to: Orange Pet Nat
+    Notes: The producers call this one "simple but never boring"`
+  },
+  {
+    id: 57,
+    name: `L. Stone`,
+    category: 'redWine',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p664_i1_w1000.jpeg?dpr=1.25',
+    description: `Producer: Ruth Lewandowski
+    Name: L. Stone
+    Vintage: 2020
+    Location: Fox Hill Vineyard, Mendocino, CA
+    Varietals: Sangiovese 
+    Fermentation: Natural, whole-custer, open stainless steel tanks
+    Aging:  10 months in polyethylene, 1 year in neutral puncheons`,
+    ingredients:`Aroma: Leather, red fruit
+    Tasting Notes: Morello cherries, dried red berries, leather
+    Body/Structure: Tight acidity, medium body
+    Similar to: Think of a more substantial Chianti Riserva`
+  }
    ];
 
 export default SAMPLE_FLASHCARDS;
