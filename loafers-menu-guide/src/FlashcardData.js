@@ -908,6 +908,25 @@ const SAMPLE_FLASHCARDS = [
     Body/Structure: Medium Body, firm tannins
     Notes: Great Example of GSM blend from Cotes du Rhone`
   },
+  {
+    id: 61,
+    name: `Kale & Garbanzo Soup`,
+    category: 'lunchSoupSalad',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p195_i3_w3600.jpeg?width=1280&dpr=1.25',
+    description: `Classic, brothy goodness`,
+    isVegan: true,
+    ingredients:`Onion
+    Carrot
+    Fennel
+    Garlic
+    Garbanzo Beans
+    Soy Oil
+    -Topped with-
+    Cooked Warm Kale
+    Olive Oil
+    Black Pepper
+    Bread Crumbs`
+  },
    ];
 
 export default SAMPLE_FLASHCARDS;
