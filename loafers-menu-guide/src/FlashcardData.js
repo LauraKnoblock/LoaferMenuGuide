@@ -927,6 +927,23 @@ const SAMPLE_FLASHCARDS = [
     Black Pepper
     Bread Crumbs`
   },
+  {
+    id: 62,
+    name: `Chablis`,
+    category: 'whiteWine',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p725_i1_w3024.jpeg?width=1280&dpr=1.25',
+    description: `Producer: Domaine Gour de Chaulé
+    Name: Gigondas Cuveé Tradition
+    Vintage: 2021
+    Location: Burgundy, France
+    Varietals: 100% Chardonnay
+    Fermentation: Natural
+    Aging:  12 months on lees in neutral oak`,
+    ingredients:`Aroma: lemon, peach, passionfruit
+    Tasting Notes: White flowers, stone fruit, chalky minerality
+    Body/Structure: Medium + body,
+    Notes: An oaky chardonnay. Great balance and beautiful fruit notes. A year in oak helps soften the edges without making the wine feel slick, oily, or buttery.`
+  },
    ];
 
 export default SAMPLE_FLASHCARDS;
