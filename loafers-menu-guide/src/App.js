@@ -72,6 +72,10 @@ function App() {
       <img src="https://images.squarespace-cdn.com/content/v1/59626a54e58c62cb702f966f/1550516597840-RQUDC10WZ33QFTLH6UAZ/Seal_blue.png?format=100w"/>
       <h1>Union Loafers Menu Guide</h1>
       </div>
+      <div className="searchBar">
+        <SearchBar onSearch={handleSearch}></SearchBar>
+      </div>
+      <div className="addItem"></div>
       <div>
         <select value={selectedCategory} onChange={handleCategoryChange}>
         <option value="none" disabled>Select a category</option>
@@ -86,9 +90,6 @@ function App() {
           <option value = "sparklingWine">Sparkling Wine</option>
           <option value = "whiteWine">White Wine</option>
         </select>
-      </div>
-      <div className="searchBar">
-        <SearchBar onSearch={handleSearch}></SearchBar>
       </div>
     <div className="container">
    <FlashcardList flashcards ={flashcards}/>

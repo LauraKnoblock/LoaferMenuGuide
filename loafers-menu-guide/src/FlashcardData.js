@@ -944,6 +944,26 @@ const SAMPLE_FLASHCARDS = [
     Body/Structure: Medium + body,
     Notes: An oaky chardonnay. Great balance and beautiful fruit notes. A year in oak helps soften the edges without making the wine feel slick, oily, or buttery.`
   },
+  {
+    id: 21,
+    name: `Kale & Garbanzo Soup`,
+    category: 'lunchSoupSalad',
+    image: 'https://129144036.cdn6.editmysite.com/uploads/1/2/9/1/129144036/s642576876884555124_p195_i3_w3600.jpeg?width=1280&dpr=1.25',
+    description: ``,
+    isVegan: true,
+    ingredients:`--Base
+    Onion
+    Carrot
+    Fennel
+    Garlic
+    Garbanzo Beans
+    Soy Oil
+    --Garnish
+    Cooked Warm Kale
+    Black Pepper
+    Bread Crumbs
+    Olive Oil`
+  },
    ];
 
 export default SAMPLE_FLASHCARDS;
