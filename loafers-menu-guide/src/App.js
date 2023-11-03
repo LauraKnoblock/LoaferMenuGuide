@@ -4,7 +4,10 @@ import './app.css';
 import axios from 'axios';
 import SearchBar from './SearchBar';
 import SAMPLE_FLASHCARDS from './FlashcardData';
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import ItemForm from './ItemForm';
 function App() {
+
 
   const [flashcards, setFlashcards] = useState(SAMPLE_FLASHCARDS);
   const [selectedCategory, setSelectedCategory] = useState('none');
@@ -67,6 +70,7 @@ function App() {
   }
 
   return (
+    <BrowserRouter>
     <div>
     <div className="header">
       <img src="https://images.squarespace-cdn.com/content/v1/59626a54e58c62cb702f966f/1550516597840-RQUDC10WZ33QFTLH6UAZ/Seal_blue.png?format=100w"/>
@@ -75,7 +79,9 @@ function App() {
       <div className="searchBar">
         <SearchBar onSearch={handleSearch}></SearchBar>
       </div>
-      <div className="addItem"></div>
+      <div className="addItem">
+       <Link to ="/item-form"> Add Item </Link>
+      </div>
       <div>
         <select value={selectedCategory} onChange={handleCategoryChange}>
         <option value="none" disabled>Select a category</option>
@@ -91,13 +97,18 @@ function App() {
           <option value = "whiteWine">White Wine</option>
         </select>
       </div>
-    <div className="container">
-   <FlashcardList flashcards ={flashcards}/>
+      <div className="container">
+        <Routes>
+          <Route path="/item-form" element={<ItemForm />} />
+          <Route path="/" element={<FlashcardList flashcards={filteredFlashcards} />} />
+        </Routes>
+      </div>
    </div>
-   </div>
+   </BrowserRouter>
    );
   }
 
 
 
 export default App;
+
